@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+    <nav class="nav-wrapper">
+        <ul class="left-nav">
+          <li><img src="images/logo.svg" alt="logo"></li>
+          <li class="drop-parent">
+            <button class="dropbtn btn1">Features <img src="images/icon-arrow-down.svg" alt="down arrow" class="arrow-img1"></button>
+            <ul class="dropdown-menu1 dropdown hidden">
+              <li><img src="images/icon-todo.svg" alt="todo svg"> Todo List</li>
+              <li><img src="images/icon-calendar.svg" alt="calendar"> Calendar</li>
+              <li><img src="images/icon-reminders.svg" alt="remainder"> Remainder</li>
+              <li><img src="images/icon-planning.svg" alt="planning"> Planning</li>
+          </ul>
+        </li>
+          <li class="drop-parent">
+            <button class="dropbtn btn2">Company <img src="images/icon-arrow-down.svg" alt="down arrow" class="arrow-img2"></button>
+            <ul class="dropdown-menu2 dropdown hidden">
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+          </li>
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
+
+        <ul class="right-nav">
+            <li>Login</li>
+            <li><button>Register</button></li>
+        </ul>
+    </nav>
+    <div class="main-wrapper">
+      <main class="main-container">
+        <section class="left-section section">
+           <h1>Make<br>remote work</h1>
+           <p>Get your team in sync, no matter your location. Streamline processes, 
+             create team rituals, and watch productivity soar.
+           </p>
+           <button>Learn more</button>
+           <div class="sponser-imgs">
+              <img src="images/client-databiz.svg" alt="">
+              <img src="images/client-audiophile.svg" alt="">
+              <img src="images/client-meet.svg" alt="">
+              <img src="images/client-maker.svg" alt="">
+           </div>
+        </section>
+        <section class="right-section section">
+          <img src="images/image-hero-desktop.png" alt="">
+        </section>
+     </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
